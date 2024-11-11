@@ -1,0 +1,17 @@
+.env
+
+**/*.tar.gz
+
+content/*.php
+content/*.html
+content/*.txt
+content/wp-admin
+content/wp-includes
+content/wp-content/cache
+content/wp-content/plugins
+content/wp-content/*.php
+content/wp-content/themes/*.php
+content/wp-content/themes/twentytwentyfour
+content/wp-content/themes/twentytwentythree
+content/wp-content/themes/twentytwentytwo
+content/wp-content/uploads

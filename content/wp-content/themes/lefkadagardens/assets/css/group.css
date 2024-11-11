@@ -1,0 +1,82 @@
+.header {
+    height: 200px;
+    width: 100%;
+}
+
+.has-gradient-background {
+    background-image: linear-gradient(144deg, 
+        rgba(255, 255, 255, 0.5) 20vw,
+        hsla(79, 40%, 39%, 0.5)45vw,
+        rgba(64, 197, 208, 0.5) 55vw,
+        rgba(115, 141, 60, 0.5) 65vw,
+        rgba(28, 156, 181, 0.5));
+}
+
+.lg-home-page-banner {
+    width: 100vw;
+    height: 100vh;
+}
+
+.lg-home-page-hero {
+    width: 100%;
+    height: 100%;
+}
+
+.wp-block-post-featured-image {
+    position: absolute;
+}
+
+.wp-block-post-featured-image img {
+    box-sizing: border-box;
+    height: 100vh;
+    align-content: center;
+    width: 100vw;
+}
+
+.lg-home-page-hero-logo {
+    z-index: 10;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.3);
+}
+
+.lg-home-page-hero-logo .wp-block-site-logo img {
+    width: auto;
+    height: auto;
+}
+
+.lg-home-page-hero-logo .wp-block-site-logo {
+    width: 50vw;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.95)
+}
+
+.lg-home-page-header {
+    position: relative;
+}
+
+.lg-home-page-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 16px;
+    margin: 24px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 5px;
+    z-index: 20;
+}
+
+.lg-home-page-menu .wp-block-navigation__responsive-container {
+    width: auto;
+    height: 400px;
+    left: auto;
+    padding: 8px;
+}
