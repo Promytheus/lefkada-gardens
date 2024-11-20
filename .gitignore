@@ -11,6 +11,7 @@ content/wp-content/cache
 content/wp-content/plugins
 content/wp-content/*.php
 content/wp-content/themes/*.php
+content/wp-content/themes/twentytwentyfive
 content/wp-content/themes/twentytwentyfour
 content/wp-content/themes/twentytwentythree
 content/wp-content/themes/twentytwentytwo

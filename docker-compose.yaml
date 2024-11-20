@@ -1,9 +1,10 @@
-version: '3'
 
 services:
   db:
     image: mariadb:11.3.2
     container_name: db
+    ports:
+      - "3306:3306"
     env_file: .env
     environment:
       - MARIADB_DATABASE=wordpress
