@@ -9,7 +9,7 @@
 
 <!-- wp:group -->
 <div class="wp-block-group lg-home-page-services">
-    <!-- wp:group {"style":{"spacing":{"padding":{"top":"0vh","bottom":"6vh"}}},"layout":{"type":"constrained"}} -->
+    <!-- wp:group {"layout":{"type":"constrained"}} -->
     <div class="wp-block-group lg-home-page-services-left" style="padding-top:0vh;padding-bottom:6vh">
         <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.2"}},"textColor":"base","fontSize":"x-large","fontFamily":"heading"} -->
         <p class="has-text-align-center has-base-color has-text-color has-heading-font-family has-x-large-font-size" style="line-height:1.2">
