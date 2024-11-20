@@ -80,3 +80,9 @@
     left: auto;
     padding: 8px;
 }
+
+.lg-home-page-service-graphic {
+    background-color: rgba(115, 141, 60, 0.5);
+    width: 100%;
+    height: 50vh;
+}

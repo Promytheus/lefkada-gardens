@@ -7,26 +7,35 @@
  */
 ?>
 
-<!-- wp:group -->
-<div class="wp-block-group lg-home-page-services">
-    <!-- wp:group {"layout":{"type":"constrained"}} -->
-    <div class="wp-block-group lg-home-page-services-left" style="padding-top:0vh;padding-bottom:6vh">
-        <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.2"}},"textColor":"base","fontSize":"x-large","fontFamily":"heading"} -->
-        <p class="has-text-align-center has-base-color has-text-color has-heading-font-family has-x-large-font-size" style="line-height:1.2">
-            <em>Planting</em>
-        </p>
-        <!-- /wp:paragraph -->
-        <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"0"}}}} -->
-        <p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:0">
-            Planting according client's vision & area's natural biology</p>
-        <!-- /wp:paragraph -->
-    </div>
-    <!-- /wp:group -->
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0"}}}}  -->
+<div class="wp-block-group lg-home-page-services alignfull" style="margin-top:0">
 
-    <!-- wp:group {"layout":{"type":"constrained"}} -->
-    <div class="wp-block-group lg-home-page-services-right">
-        <p>RIGHT</p>
-    </div> 
-    <!-- /wp:group -->
+    <!-- wp:columns -->
+    <div class="wp-block-columns">
+        <!-- wp:column -->
+        <div class="wp-block-column">
+            <!-- wp:group {"style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
+            <div class="wp-block-group lg-home-page-service-graphic" style="margin-top:0">
+                
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:column -->
+         <!-- wp:column -->
+        <div class="wp-block-column">
+            <!-- wp:paragraph {"align":"left","style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large","fontFamily":"heading"} -->
+			<p class="has-text-align-left has-text-color has-heading-font-family has-x-large-font-size" style="line-height:1.2">
+				<em>Planting</em>
+			</p>
+			<!-- /wp:paragraph -->
+			<!-- wp:paragraph {"align":"left","style":{"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"0"}}}} -->
+			<p class="has-text-align-left" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:0">
+				Planting according client's vision & area's natural biology</p>
+			<!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:column -->
+    </div>
+    <!-- /wp:columns -->
+
 </div>
 <!-- /wp:group -->
