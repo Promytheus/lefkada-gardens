@@ -13,7 +13,6 @@
 }
 
 .lg-home-page-banner {
-    width: 100vw;
     height: 100vh;
 }
 
@@ -84,5 +83,25 @@
 .lg-home-page-service-graphic {
     background-color: rgba(115, 141, 60, 0.5);
     width: 100%;
-    height: 50vh;
+    height: 100%;
+}
+
+.lg-home-page-service-graphic--left {
+    border-radius: 124px 0 124px 16px;
+}
+
+.lg-home-page-service-graphic--right {
+    border-radius: 0 124px 16px 124px;
+}
+
+.lg-home-page-service-text {
+    padding: 24px;
+}
+
+.lg-home-page-service-text--right {
+    margin-right: 15%;
+}
+
+.lg-home-page-service-text--left {
+    margin-left: 15%;
 }
