@@ -1,11 +1,6 @@
 
 volumes:
   dbdata:
-    driver: local
-    driver_opts:
-      type: nfs
-      o: addr=10.0.0.20,nolock,soft,rw
-      device: :/volume1/nfs/lefkada-gardens/dbdata
 
 services:
   db:
