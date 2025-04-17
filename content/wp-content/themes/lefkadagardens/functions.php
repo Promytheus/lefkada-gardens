@@ -32,6 +32,8 @@ if ( ! function_exists( 'lefkadagardens_block_stylesheets' ) ) :
                 'path'   => get_parent_theme_file_path( 'assets/css/group.css' ),
             )
         );
+
+        add_editor_style('assets/css/group.css');
     }
 endif;
     
